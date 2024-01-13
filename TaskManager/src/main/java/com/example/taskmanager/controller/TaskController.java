@@ -11,12 +11,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/tasks")
+@RequestMapping("/api")
 public class TaskController {
     @Autowired
     private TaskRepository repository;
 
-    @GetMapping
+    @GetMapping("/tasks")
     public ResponseEntity<List<Task>> getAllEntities() {
         return new ResponseEntity<>(repository.findAll(), HttpStatus.OK);
     }
@@ -41,8 +41,8 @@ public class TaskController {
         return repository.save(entity);
     }
 
-    @DeleteMapping
-    public Task deleteEntity(@RequestParam String id) {
+    @DeleteMapping("/{id}")
+    public Task deleteEntity(@PathVariable String id) {
         Task task = repository.findById(id).orElse(null);
         repository.deleteById(id);
         return task;
