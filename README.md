@@ -34,6 +34,53 @@ REST API (Representational State Transfer Application Programming Interface) is 
     * Replace the assignee with the assignee name that you are searching for ex: John Smith
     * Paste it in postman url box and change the request to get
     * Upon clicking the the send button you can see the top 10 tasks that are assigned by John Smith (sorted by starttime).
+
+### Refer below images for easy understanding
+1. Running the java server via eclipse ide.
+    
+    ![Screenshot (12)](https://github.com/charansuneel/Java-Rest-Api/assets/96193782/ebd4915a-c401-4349-aa05-2ab2b8cdbfb7)
+
+2. Open the postman platform.
+    
+    ![Screenshot (13)](https://github.com/charansuneel/Java-Rest-Api/assets/96193782/231089b8-ccc6-4d64-aabc-3e363e43e79d)
+    
+3. Intially the database is empty.
+    
+    ![Screenshot (14)](https://github.com/charansuneel/Java-Rest-Api/assets/96193782/14ceeaa1-d51f-4c2a-b93b-5e186ac9f36e)
+
+   After some updations to the data base.
+
+    ![Screenshot (21)](https://github.com/charansuneel/Java-Rest-Api/assets/96193782/fbf21579-6ea8-4b48-951e-fa635e366b54)
+
+    
+4. Creating the task using put method.
+
+    ![Screenshot (20)](https://github.com/charansuneel/Java-Rest-Api/assets/96193782/61e03487-f4ce-4c48-a852-f16be7dca695)
+
+
+5. Deleting the task using delete method.
+
+    ![Screenshot (19)](https://github.com/charansuneel/Java-Rest-Api/assets/96193782/68f45889-f2c2-4400-9df4-3f12feae9cbf)
+
+6. Searching by task name.
+
+    ![Screenshot (22)](https://github.com/charansuneel/Java-Rest-Api/assets/96193782/8a3253b5-2073-4179-9cd5-17c1babea2d2)
+
+7. showing top 10 records of John Smith as assignee in sorted order by time.
+
+    ![Screenshot (23)](https://github.com/charansuneel/Java-Rest-Api/assets/96193782/6cb43612-3e96-43ff-a59a-22a9e211fec8)
+
+   showing top 10 records of John as assignee in sorted order by time.
+    
+    ![Screenshot (24)](https://github.com/charansuneel/Java-Rest-Api/assets/96193782/98d9f5ba-df28-4073-9109-109a7befdb17)
+
+
+You can also see your database in mongodb compass.
+
+![Screenshot (25)](https://github.com/charansuneel/Java-Rest-Api/assets/96193782/788cc27c-4ce6-45ad-8b66-5daac5a25d00)
+
+  
+
   
    
  
